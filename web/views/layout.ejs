@@ -1,21 +1,27 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
 <head>
-	<%- include("comum/cabecalho") %>
+    <%- include("comum/cabecalho") %>
+    <link rel='stylesheet' href='/public/css/style.css' /> 
 
-	<%- defineContent("espaco-head") %>
+    <%- defineContent("espaco-head") %>
 </head>
 <body>
 
-	<div class="principal limitador">
-		<%- include("comum/nav") %>
+    <div class="principal limitador">
+        <%- include("comum/nav") %>
 
-		<div class="corpo-principal">
-			<%- body %>
-		</div>
+        <div class="corpo-principal">
+            <%- body %>
+        </div>
 
-		<%- include("comum/rodape") %>
-	</div>
+        <%- include("comum/rodape") %>
+    </div>
 
 </body>
 </html>
+
+
+
+
+
