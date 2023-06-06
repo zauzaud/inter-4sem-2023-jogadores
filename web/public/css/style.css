@@ -1,37 +1,4 @@
-body {
-    display: flex;
-    background: #777;
-}
 
-.navbar {
-    width: 20%; /* Isso fará com que a navbar ocupe 20% do lado esquerdo da tela */
-    background: #333;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.principal {
-    flex: 1; /* Isso permite que o conteúdo principal ocupe o restante do espaço disponível após a navbar */
-    margin-left: 20%; /* Desloca o conteúdo principal para a direita da navbar */
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background: #f0f0f0;
-    box-shadow: 0 0 1rem;
-}
-
-.corpo-principal {
-    flex: 1 1 auto;
-}
-
-.rodape {
-    padding: 1rem;
-    background: #ccc;
-}
-
-/* 
  body {
     background: #777;
 }
@@ -56,4 +23,15 @@ body {
 .limitador {
     max-width: 1260px;
     margin: 0 auto;
-}  */
+}  
+
+.h2-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  header.site-header {
+    background-color: #161920 !important;
+  }
+  
